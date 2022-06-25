@@ -193,21 +193,23 @@ export default function App() {
   }
 
   return (
-    <div className="App">
-      <AddToDoForm
-        value={value}
-        onChange={setValue}
-        onSubmit={handleAddTodo}
-        // onChange handler
-        // onSubmit handler
-      />
-      <Tasklist
-        todos={todos}
-        onDelete={handleDeleteTodo}
-        onComplete={handleCompleteTodo}
-        onEdit={handleEditTodo}
-        // List of todos
-      />
+    <div className="wrap">
+      <div className="App">
+        <AddToDoForm
+          value={value}
+          onChange={setValue}
+          onSubmit={handleAddTodo}
+          // onChange handler
+          // onSubmit handler
+        />
+        <Tasklist
+          todos={todos}
+          onDelete={handleDeleteTodo}
+          onComplete={handleCompleteTodo}
+          onEdit={handleEditTodo}
+          // List of todos
+        />
+      </div>
     </div>
   )
 }

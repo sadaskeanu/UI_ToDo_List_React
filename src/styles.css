@@ -75,8 +75,6 @@ body {
   width: 20px;
   height: 20px;
   border: none;
-  background-image: url(./img/ad-icon.svg);
-  background-repeat: no-repeat;
   background-color: inherit;
   background-position: center;
   cursor: pointer;
@@ -87,8 +85,6 @@ body {
   height: 30px;
   margin-right: 10px;
   border: none;
-  background-image: url(./img/close-icon.svg);
-  background-repeat: no-repeat;
   background-color: inherit;
   background-position: center;
   cursor: pointer;
